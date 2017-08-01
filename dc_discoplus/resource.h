@@ -1,0 +1,11 @@
+#define IDD_DLGCOLORS                   101
+#define IDC_EXTLIST                     1002
+#define IDC_EDITEXT                     1003
+#define IDC_BNADD                       1004
+#define IDC_BNDEL                       1005
+#define IDC_BNCHANGE                    1006
+#define IDC_BNSELECT                    1007
+#define IDC_BNCOLOR                     1008
+#define IDC_CSTCOLOR                    1009
+#define IDC_RICHEDIT21                  1016
+#define IDC_CUSTOM1                     1017
