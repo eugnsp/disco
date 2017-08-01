@@ -6,7 +6,7 @@
 #include <string>
 #include <vector>
 
-std::string read_dtring(std::ifstream& stream)
+std::string read_string(std::ifstream& stream)
 {
 	std::uint16_t len;
 	stream.read(reinterpret_cast<char*>(&len), 2);
@@ -46,7 +46,7 @@ int main(int argc, const char* argv[])
 
 		while (true)
 		{
-			std::string str = read_dtring(in_file);
+			std::string str = read_string(in_file);
 
 			if (after_at)
 				params.push_back(std::move(str));
